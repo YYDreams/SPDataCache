@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SPDataCache_Example' do
+  pod 'SPDataCache', :path => '../'
+
+  target 'SPDataCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
